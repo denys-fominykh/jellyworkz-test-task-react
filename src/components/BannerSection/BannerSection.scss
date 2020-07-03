@@ -1,0 +1,101 @@
+.banner {
+  &__background-img {
+    &-element {
+      &_size {
+        width: 100%;
+      }
+    }
+  }
+
+  &__container {
+    &_style {
+      position: absolute;
+      display: flex;
+      top: 104px;
+      width: 100%;
+    }
+
+    &-btn {
+      &_size {
+        width: 50%;
+      }
+
+      &-element {
+        &_style {
+          width: 245px;
+          height: 95px;
+          margin: 528px 7px 12px 190px;
+          cursor: pointer;
+          outline: none;
+          background: #FFF800;
+          border-radius: 24px;
+          border: 1px solid #FFF800;
+          color: #0B2033;
+          font-family: 'Open Sans', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          text-align: center;
+          box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+
+          &:hover {
+            background: rgba(0, 0, 0, 0);
+            color: #FFF800;
+          }
+        }
+      }
+    }
+
+    &-logo {
+      &_position {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+      }
+
+      &-text {
+        &_position {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        &-heading {
+          &-one {
+            &_font {
+              color: #FFFFFF;
+              margin: 0 0 40px 0;
+              font-family: 'Open Sans', sans-serif;
+              font-style: normal;
+              font-weight: 300;
+              font-size: 42px;
+            }
+          }
+
+          &-two {
+            &_font {
+              color: #FFFFFF;
+              margin: 3px 0;
+              font-family: 'Open Sans', sans-serif;
+              font-style: normal;
+              font-weight: 800;
+              font-size: 36px;
+            }
+          }
+        }
+
+        &-paragraph {
+          &_font {
+            color: #FFFFFF;
+            margin: 3px 0;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
